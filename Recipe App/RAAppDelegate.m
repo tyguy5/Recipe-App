@@ -25,6 +25,7 @@
     RAViewController *viewController = [RAViewController new];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:viewController];
     self.window.rootViewController = navController;
+    navController.navigationBar.translucent = NO;
     
     [self.window makeKeyAndVisible];
     return YES;
