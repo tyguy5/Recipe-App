@@ -22,6 +22,7 @@
 		D233430C19C4B028002E0327 /* RAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D233430B19C4B028002E0327 /* RAViewController.m */; };
 		D233430F19C4B3D8002E0327 /* RATableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D233430E19C4B3D8002E0327 /* RATableViewDataSource.m */; };
 		D233431219C4BE8C002E0327 /* RATableDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D233431119C4BE8C002E0327 /* RATableDetailViewController.m */; };
+		D233431519C4D92C002E0327 /* RARecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = D233431419C4D92C002E0327 /* RARecipes.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		D233430E19C4B3D8002E0327 /* RATableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATableViewDataSource.m; sourceTree = "<group>"; };
 		D233431019C4BE8C002E0327 /* RATableDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RATableDetailViewController.h; sourceTree = "<group>"; };
 		D233431119C4BE8C002E0327 /* RATableDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RATableDetailViewController.m; sourceTree = "<group>"; };
+		D233431319C4D92C002E0327 /* RARecipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RARecipes.h; sourceTree = "<group>"; };
+		D233431419C4D92C002E0327 /* RARecipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RARecipes.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				71F67B60192C8D6A00E609F1 /* RAAppDelegate.m */,
 				D233430A19C4B028002E0327 /* RAViewController.h */,
 				D233430B19C4B028002E0327 /* RAViewController.m */,
+				D233431319C4D92C002E0327 /* RARecipes.h */,
+				D233431419C4D92C002E0327 /* RARecipes.m */,
 				D233431019C4BE8C002E0327 /* RATableDetailViewController.h */,
 				D233431119C4BE8C002E0327 /* RATableDetailViewController.m */,
 				D233430D19C4B3D8002E0327 /* RATableViewDataSource.h */,
@@ -255,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D233431519C4D92C002E0327 /* RARecipes.m in Sources */,
 				D233431219C4BE8C002E0327 /* RATableDetailViewController.m in Sources */,
 				71F67B5D192C8D6A00E609F1 /* main.m in Sources */,
 				71F67B61192C8D6A00E609F1 /* RAAppDelegate.m in Sources */,
